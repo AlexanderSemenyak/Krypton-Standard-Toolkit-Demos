@@ -40,7 +40,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton Border Edge Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -49,7 +49,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton Button Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -58,7 +58,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton CheckBox Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -67,7 +67,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton CheckButton Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -76,7 +76,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton DropButton Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -85,7 +85,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton ColorButton Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -94,7 +94,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton CheckSet Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -103,7 +103,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton Context Menu Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -112,7 +112,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton Data GridView Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -121,7 +121,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton Form Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -130,7 +130,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton Group Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -139,7 +139,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton GroupBox Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -148,7 +148,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton Header Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -157,7 +157,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton Header Group Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -166,7 +166,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton Label Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -175,7 +175,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton Wrap Label Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -184,7 +184,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton Command Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -193,7 +193,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton Link Label Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -202,7 +202,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton ListBox Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -211,7 +211,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton Checked ListBox Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -220,7 +220,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton Masked TextBox Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -229,7 +229,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton Palette Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -238,7 +238,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton Panel Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -247,7 +247,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton Separator Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -256,7 +256,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton RadioButton Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -265,7 +265,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton TrackBar Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -274,7 +274,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton Split Container Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -283,7 +283,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton ComboBox Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -292,7 +292,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton TextBox Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -301,7 +301,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton Rich TextBox Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -310,7 +310,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton Numeric UpDown Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -319,7 +319,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton Domain UpDown Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -328,7 +328,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton Bread Crumb Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -337,7 +337,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton DateTimePicker Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -346,7 +346,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton Month Calendar Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -355,7 +355,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton InputBox Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -364,7 +364,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton MessageBox Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -373,7 +373,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton TaskDialog Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -382,7 +382,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton TreeView Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -391,7 +391,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Input Form Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -400,7 +400,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Three Pane Application Basic.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -409,7 +409,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Three Pane Application Extended.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -418,7 +418,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\MDI Application.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -427,7 +427,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Custom Control Using Palettes.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -436,7 +436,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Custom Control Using Renderers.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -445,7 +445,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Expanding Header Groups Splitters Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -454,7 +454,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Expanding Header Groups DockStyle Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -463,7 +463,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Expanding Header Groups Stack Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -472,7 +472,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Child Control Stack.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -481,7 +481,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Button Spec Playground.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -490,7 +490,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Navigator Modes.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -499,7 +499,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Navigator Palettes.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -508,7 +508,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Orientation Plus Alignment.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -517,7 +517,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Singleline Plus Multiline.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -526,7 +526,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Tab Border Styles.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -535,7 +535,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Popup Pages.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -544,7 +544,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Per Tab Buttons.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -553,7 +553,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Navigator Tool Tips.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -562,7 +562,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Navigator Context Menus.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -571,7 +571,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Navigator Playground.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -580,7 +580,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Contextual Tabs.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -589,7 +589,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Key Tips And Keyboard Access.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -598,7 +598,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Auto Shrinking Groups.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -607,7 +607,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Quick Access Toolbar.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -616,7 +616,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Ribbon Gallery.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -625,7 +625,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Ribbon Tool Tips.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -634,7 +634,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Ribbon Controls.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -643,7 +643,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Krypton Gallery Examples.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -652,7 +652,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Application Menu.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -661,7 +661,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Outlook Mail Clone.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -670,7 +670,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Ribbon And Navigator And Workspace.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -679,7 +679,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\MDI Ribbon.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -688,7 +688,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Expanding Pages.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -697,7 +697,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Basic Events.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -706,7 +706,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\User Page Creation.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -715,7 +715,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\OneNote Tabs.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -724,7 +724,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Outlook Mockup.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -733,7 +733,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Workspace Cell Modes.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -742,7 +742,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Workspace Cell Layout.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -751,7 +751,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\WorkspacePersistence.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -760,7 +760,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Cell Maximize And Restore.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -769,7 +769,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Basic Page Drag And Drop.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -778,7 +778,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Advanced Page Drag And Drop.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -787,7 +787,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Memo Editor.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -796,7 +796,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Standard Docking.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -805,7 +805,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Multi Control Docking.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -814,7 +814,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\External Drag To Docking.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -824,7 +824,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Navigator And Floating Windows.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -833,7 +833,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Docking Persistence.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -842,7 +842,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Docking Flags.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -851,7 +851,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Docking Customized.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -860,7 +860,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Palette Designer.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 
@@ -869,7 +869,7 @@ namespace KryptonExplorer
             try { Process.Start(@".\Palette Upgrade Tool.exe"); }
             catch (Exception ex)
             {
-                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                KryptonMessageBox.Show(this, ex.Message, @"Explorer", MessageBoxButtons.OK, KryptonMessageBoxIcon.ERROR);
             }
         }
 

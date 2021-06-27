@@ -17,7 +17,7 @@ namespace KryptonMessageBoxExamples
 {
     public partial class Form1 : Form
     {
-        private MessageBoxIcon _mbIcon = MessageBoxIcon.Warning;
+        private KryptonMessageBoxIcon _mbIcon = KryptonMessageBoxIcon.WARNING;
         private MessageBoxButtons _mbButtons = MessageBoxButtons.OKCancel;
 
         public Form1()
@@ -71,29 +71,49 @@ namespace KryptonMessageBoxExamples
             {
                 kryptonManager.GlobalPaletteMode = PaletteModeManager.ProfessionalSystem;
             }
+            else if (radioButtonOffice365Black.Checked)
+            {
+                kryptonManager.GlobalPaletteMode = PaletteModeManager.Office365Black;
+            }
+            else if (radioButtonOffice365Blue.Checked)
+            {
+                kryptonManager.GlobalPaletteMode = PaletteModeManager.Office365Blue;
+            }
+            else if (radioButtonOffice365Silver.Checked)
+            {
+                kryptonManager.GlobalPaletteMode = PaletteModeManager.Office365Silver;
+            }
         }
 
         private void icon_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButtonNone.Checked)
             {
-                _mbIcon = MessageBoxIcon.None;
+                _mbIcon = KryptonMessageBoxIcon.NONE;
             }
             else if (radioButtonError.Checked)
             {
-                _mbIcon = MessageBoxIcon.Error;
+                _mbIcon = KryptonMessageBoxIcon.ERROR;
             }
             else if (radioButtonQuestion.Checked)
             {
-                _mbIcon = MessageBoxIcon.Question;
+                _mbIcon = KryptonMessageBoxIcon.QUESTION;
             }
             else if (radioButtonWarning.Checked)
             {
-                _mbIcon = MessageBoxIcon.Warning;
+                _mbIcon = KryptonMessageBoxIcon.WARNING;
             }
             else if (radioButtonInformation.Checked)
             {
-                _mbIcon = MessageBoxIcon.Information;
+                _mbIcon = KryptonMessageBoxIcon.INFORMATION;
+            }
+            else if (rbShield.Checked)
+            {
+                _mbIcon = KryptonMessageBoxIcon.SHIELD;
+            }
+            else if (rbWindowsLogo.Checked)
+            {
+                _mbIcon = KryptonMessageBoxIcon.WINDOWSLOGO;
             }
         }
 

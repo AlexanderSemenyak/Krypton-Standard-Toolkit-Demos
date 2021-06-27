@@ -194,7 +194,7 @@ namespace TestMessageBoxClipping
             catch (Exception ex)
             {
                 MessageBox.Show(this, ex.StackTrace, "ex.Message", MessageBoxButtons.OK, MessageBoxIcon.Stop);
-                KryptonMessageBox.Show(this, ex.StackTrace, "ex.Message", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                KryptonMessageBox.Show(this, ex.StackTrace, "ex.Message", MessageBoxButtons.OK, KryptonMessageBoxIcon.STOP);
             }
         }
 
@@ -220,7 +220,7 @@ namespace TestMessageBoxClipping
             catch (Exception ex)
             {
                 MessageBox.Show(ex.StackTrace, "ex.Message", MessageBoxButtons.OK, MessageBoxIcon.Stop);
-                KryptonMessageBox.Show(ex.StackTrace, "ex.Message", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                KryptonMessageBox.Show(ex.StackTrace, "ex.Message", MessageBoxButtons.OK, KryptonMessageBoxIcon.STOP);
             }
         }
     }

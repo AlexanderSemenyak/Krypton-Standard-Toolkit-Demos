@@ -44,6 +44,8 @@
             this.radioButtonAbortRetryIgnore = new System.Windows.Forms.RadioButton();
             this.radioButtonYesNoCancel = new System.Windows.Forms.RadioButton();
             this.groupBoxIcon = new System.Windows.Forms.GroupBox();
+            this.rbWindowsLogo = new System.Windows.Forms.RadioButton();
+            this.rbShield = new System.Windows.Forms.RadioButton();
             this.groupBoxButtons = new System.Windows.Forms.GroupBox();
             this.radioButtonYesNo = new System.Windows.Forms.RadioButton();
             this.radioButtonRetryCancel = new System.Windows.Forms.RadioButton();
@@ -61,6 +63,9 @@
             this.radioButtonOffice2010Black = new System.Windows.Forms.RadioButton();
             this.radioButtonOffice2010Silver = new System.Windows.Forms.RadioButton();
             this.radioButtonOffice2010Blue = new System.Windows.Forms.RadioButton();
+            this.radioButtonOffice365Black = new System.Windows.Forms.RadioButton();
+            this.radioButtonOffice365Silver = new System.Windows.Forms.RadioButton();
+            this.radioButtonOffice365Blue = new System.Windows.Forms.RadioButton();
             this.groupBoxIcon.SuspendLayout();
             this.groupBoxButtons.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -215,6 +220,8 @@
             // 
             // groupBoxIcon
             // 
+            this.groupBoxIcon.Controls.Add(this.rbWindowsLogo);
+            this.groupBoxIcon.Controls.Add(this.rbShield);
             this.groupBoxIcon.Controls.Add(this.radioButtonNone);
             this.groupBoxIcon.Controls.Add(this.radioButtonError);
             this.groupBoxIcon.Controls.Add(this.radioButtonQuestion);
@@ -222,10 +229,32 @@
             this.groupBoxIcon.Controls.Add(this.radioButtonInformation);
             this.groupBoxIcon.Location = new System.Drawing.Point(70, 176);
             this.groupBoxIcon.Name = "groupBoxIcon";
-            this.groupBoxIcon.Size = new System.Drawing.Size(246, 100);
+            this.groupBoxIcon.Size = new System.Drawing.Size(246, 174);
             this.groupBoxIcon.TabIndex = 4;
             this.groupBoxIcon.TabStop = false;
             this.groupBoxIcon.Text = "Icon";
+            // 
+            // rbWindowsLogo
+            // 
+            this.rbWindowsLogo.AutoSize = true;
+            this.rbWindowsLogo.Location = new System.Drawing.Point(16, 93);
+            this.rbWindowsLogo.Name = "rbWindowsLogo";
+            this.rbWindowsLogo.Size = new System.Drawing.Size(94, 17);
+            this.rbWindowsLogo.TabIndex = 6;
+            this.rbWindowsLogo.Tag = "32";
+            this.rbWindowsLogo.Text = "Windows Logo";
+            this.rbWindowsLogo.UseVisualStyleBackColor = true;
+            // 
+            // rbShield
+            // 
+            this.rbShield.AutoSize = true;
+            this.rbShield.Location = new System.Drawing.Point(119, 70);
+            this.rbShield.Name = "rbShield";
+            this.rbShield.Size = new System.Drawing.Size(53, 17);
+            this.rbShield.TabIndex = 5;
+            this.rbShield.Tag = "32";
+            this.rbShield.Text = "Shield";
+            this.rbShield.UseVisualStyleBackColor = true;
             // 
             // groupBoxButtons
             // 
@@ -235,7 +264,7 @@
             this.groupBoxButtons.Controls.Add(this.radioButtonOKCancel);
             this.groupBoxButtons.Controls.Add(this.radioButtonYesNoCancel);
             this.groupBoxButtons.Controls.Add(this.radioButtonAbortRetryIgnore);
-            this.groupBoxButtons.Location = new System.Drawing.Point(70, 283);
+            this.groupBoxButtons.Location = new System.Drawing.Point(70, 356);
             this.groupBoxButtons.Name = "groupBoxButtons";
             this.groupBoxButtons.Size = new System.Drawing.Size(246, 100);
             this.groupBoxButtons.TabIndex = 5;
@@ -268,7 +297,7 @@
             // 
             // buttonShow
             // 
-            this.buttonShow.Location = new System.Drawing.Point(70, 398);
+            this.buttonShow.Location = new System.Drawing.Point(70, 462);
             this.buttonShow.Name = "buttonShow";
             this.buttonShow.Size = new System.Drawing.Size(466, 57);
             this.buttonShow.TabIndex = 1;
@@ -276,8 +305,15 @@
             this.buttonShow.UseVisualStyleBackColor = true;
             this.buttonShow.Click += new System.EventHandler(this.buttonShow_Click);
             // 
+            // kryptonManager
+            // 
+            this.kryptonManager.GlobalPaletteMode = Krypton.Toolkit.PaletteModeManager.Office365Blue;
+            // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.radioButtonOffice365Black);
+            this.groupBox3.Controls.Add(this.radioButtonOffice365Silver);
+            this.groupBox3.Controls.Add(this.radioButtonOffice365Blue);
             this.groupBox3.Controls.Add(this.radioButtonSystem);
             this.groupBox3.Controls.Add(this.radioButtonOffice2003);
             this.groupBox3.Controls.Add(this.radioButtonSparklePurple);
@@ -291,7 +327,7 @@
             this.groupBox3.Controls.Add(this.radioButtonOffice2010Blue);
             this.groupBox3.Location = new System.Drawing.Point(336, 21);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(200, 362);
+            this.groupBox3.Size = new System.Drawing.Size(200, 435);
             this.groupBox3.TabIndex = 0;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Palette";
@@ -299,7 +335,7 @@
             // radioButtonSystem
             // 
             this.radioButtonSystem.AutoSize = true;
-            this.radioButtonSystem.Location = new System.Drawing.Point(18, 262);
+            this.radioButtonSystem.Location = new System.Drawing.Point(18, 319);
             this.radioButtonSystem.Name = "radioButtonSystem";
             this.radioButtonSystem.Size = new System.Drawing.Size(128, 17);
             this.radioButtonSystem.TabIndex = 10;
@@ -311,7 +347,7 @@
             // radioButtonOffice2003
             // 
             this.radioButtonOffice2003.AutoSize = true;
-            this.radioButtonOffice2003.Location = new System.Drawing.Point(18, 239);
+            this.radioButtonOffice2003.Location = new System.Drawing.Point(18, 296);
             this.radioButtonOffice2003.Name = "radioButtonOffice2003";
             this.radioButtonOffice2003.Size = new System.Drawing.Size(149, 17);
             this.radioButtonOffice2003.TabIndex = 9;
@@ -323,7 +359,7 @@
             // radioButtonSparklePurple
             // 
             this.radioButtonSparklePurple.AutoSize = true;
-            this.radioButtonSparklePurple.Location = new System.Drawing.Point(18, 216);
+            this.radioButtonSparklePurple.Location = new System.Drawing.Point(18, 273);
             this.radioButtonSparklePurple.Name = "radioButtonSparklePurple";
             this.radioButtonSparklePurple.Size = new System.Drawing.Size(100, 17);
             this.radioButtonSparklePurple.TabIndex = 8;
@@ -335,7 +371,7 @@
             // radioButtonSparkleOrange
             // 
             this.radioButtonSparkleOrange.AutoSize = true;
-            this.radioButtonSparkleOrange.Location = new System.Drawing.Point(18, 193);
+            this.radioButtonSparkleOrange.Location = new System.Drawing.Point(18, 250);
             this.radioButtonSparkleOrange.Name = "radioButtonSparkleOrange";
             this.radioButtonSparkleOrange.Size = new System.Drawing.Size(106, 17);
             this.radioButtonSparkleOrange.TabIndex = 7;
@@ -347,7 +383,7 @@
             // radioButtonSparkleBlue
             // 
             this.radioButtonSparkleBlue.AutoSize = true;
-            this.radioButtonSparkleBlue.Location = new System.Drawing.Point(18, 170);
+            this.radioButtonSparkleBlue.Location = new System.Drawing.Point(18, 227);
             this.radioButtonSparkleBlue.Name = "radioButtonSparkleBlue";
             this.radioButtonSparkleBlue.Size = new System.Drawing.Size(90, 17);
             this.radioButtonSparkleBlue.TabIndex = 6;
@@ -359,7 +395,7 @@
             // radioButtonOffice2007Black
             // 
             this.radioButtonOffice2007Black.AutoSize = true;
-            this.radioButtonOffice2007Black.Location = new System.Drawing.Point(18, 147);
+            this.radioButtonOffice2007Black.Location = new System.Drawing.Point(18, 204);
             this.radioButtonOffice2007Black.Name = "radioButtonOffice2007Black";
             this.radioButtonOffice2007Black.Size = new System.Drawing.Size(115, 17);
             this.radioButtonOffice2007Black.TabIndex = 5;
@@ -371,7 +407,7 @@
             // radioButtonOffice2007Silver
             // 
             this.radioButtonOffice2007Silver.AutoSize = true;
-            this.radioButtonOffice2007Silver.Location = new System.Drawing.Point(18, 124);
+            this.radioButtonOffice2007Silver.Location = new System.Drawing.Point(18, 181);
             this.radioButtonOffice2007Silver.Name = "radioButtonOffice2007Silver";
             this.radioButtonOffice2007Silver.Size = new System.Drawing.Size(117, 17);
             this.radioButtonOffice2007Silver.TabIndex = 4;
@@ -383,7 +419,7 @@
             // radioButtonOffice2007Blue
             // 
             this.radioButtonOffice2007Blue.AutoSize = true;
-            this.radioButtonOffice2007Blue.Location = new System.Drawing.Point(18, 101);
+            this.radioButtonOffice2007Blue.Location = new System.Drawing.Point(18, 158);
             this.radioButtonOffice2007Blue.Name = "radioButtonOffice2007Blue";
             this.radioButtonOffice2007Blue.Size = new System.Drawing.Size(111, 17);
             this.radioButtonOffice2007Blue.TabIndex = 3;
@@ -395,7 +431,7 @@
             // radioButtonOffice2010Black
             // 
             this.radioButtonOffice2010Black.AutoSize = true;
-            this.radioButtonOffice2010Black.Location = new System.Drawing.Point(18, 78);
+            this.radioButtonOffice2010Black.Location = new System.Drawing.Point(18, 135);
             this.radioButtonOffice2010Black.Name = "radioButtonOffice2010Black";
             this.radioButtonOffice2010Black.Size = new System.Drawing.Size(115, 17);
             this.radioButtonOffice2010Black.TabIndex = 2;
@@ -407,7 +443,7 @@
             // radioButtonOffice2010Silver
             // 
             this.radioButtonOffice2010Silver.AutoSize = true;
-            this.radioButtonOffice2010Silver.Location = new System.Drawing.Point(18, 55);
+            this.radioButtonOffice2010Silver.Location = new System.Drawing.Point(18, 112);
             this.radioButtonOffice2010Silver.Name = "radioButtonOffice2010Silver";
             this.radioButtonOffice2010Silver.Size = new System.Drawing.Size(117, 17);
             this.radioButtonOffice2010Silver.TabIndex = 1;
@@ -419,22 +455,54 @@
             // radioButtonOffice2010Blue
             // 
             this.radioButtonOffice2010Blue.AutoSize = true;
-            this.radioButtonOffice2010Blue.Checked = true;
-            this.radioButtonOffice2010Blue.Location = new System.Drawing.Point(18, 32);
+            this.radioButtonOffice2010Blue.Location = new System.Drawing.Point(18, 89);
             this.radioButtonOffice2010Blue.Name = "radioButtonOffice2010Blue";
             this.radioButtonOffice2010Blue.Size = new System.Drawing.Size(111, 17);
             this.radioButtonOffice2010Blue.TabIndex = 0;
-            this.radioButtonOffice2010Blue.TabStop = true;
             this.radioButtonOffice2010Blue.Tag = "0";
             this.radioButtonOffice2010Blue.Text = "Office 2010 - Blue";
             this.radioButtonOffice2010Blue.UseVisualStyleBackColor = true;
             this.radioButtonOffice2010Blue.CheckedChanged += new System.EventHandler(this.palette_CheckedChanged);
             // 
+            // radioButtonOffice365Black
+            // 
+            this.radioButtonOffice365Black.AutoSize = true;
+            this.radioButtonOffice365Black.Location = new System.Drawing.Point(18, 66);
+            this.radioButtonOffice365Black.Name = "radioButtonOffice365Black";
+            this.radioButtonOffice365Black.Size = new System.Drawing.Size(109, 17);
+            this.radioButtonOffice365Black.TabIndex = 13;
+            this.radioButtonOffice365Black.Tag = "0";
+            this.radioButtonOffice365Black.Text = "Office 365 - Black";
+            this.radioButtonOffice365Black.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonOffice365Silver
+            // 
+            this.radioButtonOffice365Silver.AutoSize = true;
+            this.radioButtonOffice365Silver.Location = new System.Drawing.Point(18, 43);
+            this.radioButtonOffice365Silver.Name = "radioButtonOffice365Silver";
+            this.radioButtonOffice365Silver.Size = new System.Drawing.Size(111, 17);
+            this.radioButtonOffice365Silver.TabIndex = 12;
+            this.radioButtonOffice365Silver.Tag = "0";
+            this.radioButtonOffice365Silver.Text = "Office 365 - Silver";
+            this.radioButtonOffice365Silver.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonOffice365Blue
+            // 
+            this.radioButtonOffice365Blue.AutoSize = true;
+            this.radioButtonOffice365Blue.Checked = true;
+            this.radioButtonOffice365Blue.Location = new System.Drawing.Point(18, 20);
+            this.radioButtonOffice365Blue.Name = "radioButtonOffice365Blue";
+            this.radioButtonOffice365Blue.Size = new System.Drawing.Size(105, 17);
+            this.radioButtonOffice365Blue.TabIndex = 11;
+            this.radioButtonOffice365Blue.Tag = "0";
+            this.radioButtonOffice365Blue.Text = "Office 365 - Blue";
+            this.radioButtonOffice365Blue.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(557, 473);
+            this.ClientSize = new System.Drawing.Size(557, 531);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.buttonShow);
             this.Controls.Add(this.groupBoxButtons);
@@ -493,6 +561,11 @@
         private System.Windows.Forms.RadioButton radioButtonOffice2010Black;
         private System.Windows.Forms.RadioButton radioButtonOffice2010Silver;
         private System.Windows.Forms.RadioButton radioButtonOffice2010Blue;
+        private System.Windows.Forms.RadioButton rbWindowsLogo;
+        private System.Windows.Forms.RadioButton rbShield;
+        private System.Windows.Forms.RadioButton radioButtonOffice365Black;
+        private System.Windows.Forms.RadioButton radioButtonOffice365Silver;
+        private System.Windows.Forms.RadioButton radioButtonOffice365Blue;
     }
 }
 
