@@ -69,5 +69,10 @@ namespace OutlookMailClone
         {
             Close();
         }
+
+        private void illustrationsChart_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
