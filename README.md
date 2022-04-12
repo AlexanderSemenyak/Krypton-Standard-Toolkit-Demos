@@ -1,3 +1,5 @@
+orig: https://github.com/Krypton-Suite/Standard-Toolkit-Demos
+
 # Standard-Toolkit-Demos
 There are 2 sets of solutions in these projects:
 - Dev
